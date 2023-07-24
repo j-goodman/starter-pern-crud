@@ -36,6 +36,8 @@ function BookmarkNewForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log("Handle submit...")
+    console.log(bookmark)
     addBookmark(bookmark);
   };
   return (
